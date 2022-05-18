@@ -1,0 +1,72 @@
+.hero-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+@media screen and (min-width: 992px) {
+.hero {
+    height: 100vh;
+}
+
+.bg-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    text-shadow: 5px 0px 25px rgb(44, 44, 44);
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-text {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    text-shadow: (5, 5, 25, black);
+    font-size: larger;
+    text-shadow: 5px 0px 25px rgb(44, 44, 44);
+}
+
+.navbar-name{
+    color: black;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nav-link{
+    color: black;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+img{
+    border-radius: 5%;
+}
+
+img:hover{
+    opacity: 90%;
+}
+
+.footer{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
